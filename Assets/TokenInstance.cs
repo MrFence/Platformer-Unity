@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class TokenInstance : MonoBehaviour
 {
+    public AudioSource src;
+    public AudioClip pickupCoin;
 
-   
+
+
 
     void Start()
     {
@@ -22,6 +25,10 @@ public class TokenInstance : MonoBehaviour
         {
             Destroy(gameObject);
             ScoreManager.instance.AddPoint();
+          
+            
+            src.clip = pickupCoin;
+            src.Play();
             
         }
 
