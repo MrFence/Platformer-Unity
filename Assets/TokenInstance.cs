@@ -16,23 +16,19 @@ public class TokenInstance : MonoBehaviour
    
     }
 
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        var player = collision.collider.GetComponent<PlayerMovement>();
+        var player = collision.gameObject.GetComponent<PlayerMovement>();
         if (player)
         {
             Destroy(gameObject);
             ScoreManager.instance.AddPoint();
-          
-            
+
+
             src.clip = pickupCoin;
             src.Play();
-            
+
         }
-
-
     }
 
 }
