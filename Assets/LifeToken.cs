@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TokenInstance : MonoBehaviour
+public class LifeToken : MonoBehaviour
 {
-    public AudioSource src;
-    public AudioClip pickupCoin;
-    
+    //public AudioSource src;
+    //public AudioClip pickupCoin;
+
 
 
 
     void Start()
     {
-    
-   
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -22,11 +22,11 @@ public class TokenInstance : MonoBehaviour
         if (player)
         {
             Destroy(gameObject);
-            ScoreManager.instance.AddPoint();
+            LifeManager.instance.AddLife();
 
 
-            src.clip = pickupCoin;
-            src.Play();
+            //src.clip = pickupCoin;
+            //src.Play();
 
         }
     }
