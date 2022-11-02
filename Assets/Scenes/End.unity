@@ -724,7 +724,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Temp End Screen Yay!
+  m_Text: "End Screen \nYay!"
 --- !u!222 &1836306690
 CanvasRenderer:
   m_ObjectHideFlags: 0
