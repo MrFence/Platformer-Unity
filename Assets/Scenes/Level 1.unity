@@ -1778,10 +1778,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422864699}
     m_Modifications:
-    - target: {fileID: 1515783124063473185, guid: 3653f8663fe1ead498196e5018003323, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -5752236634969679100, guid: c4cee805919adfb43a583e62f378b427, type: 3}
     - target: {fileID: 1515783124063473186, guid: 3653f8663fe1ead498196e5018003323, type: 3}
       propertyPath: m_Name
       value: Floor
@@ -1789,10 +1785,6 @@ PrefabInstance:
     - target: {fileID: 1515783124063473187, guid: 3653f8663fe1ead498196e5018003323, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1515783124063473187, guid: 3653f8663fe1ead498196e5018003323, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 26.67212
       objectReference: {fileID: 0}
     - target: {fileID: 1515783124063473187, guid: 3653f8663fe1ead498196e5018003323, type: 3}
       propertyPath: m_LocalPosition.x
